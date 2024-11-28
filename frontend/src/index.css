@@ -1,0 +1,28 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.form-container, .invoice-list {
+  margin: 20px 0;
+}
+
+.form-input input, .details-row input {
+  margin-right: 10px;
+  padding: 8px;
+}
+
+.submit-btn, .add-detail-btn, .delete-btn {
+  margin-top: 10px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.loading {
+  color: blue;
+}
+
+.error {
+  color: red;
+}

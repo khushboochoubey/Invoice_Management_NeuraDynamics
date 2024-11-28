@@ -1,0 +1,107 @@
+Basic Styles
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f7fa;
+}
+
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+  color: #333;
+  text-align: center;
+}
+
+/* Loading and Error Message */
+.loading {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #2d8b5f;
+}
+
+.error {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #f44336;
+}
+
+/* Form Styles */
+.form-container {
+  margin-bottom: 30px;
+}
+
+.form-input {
+  margin: 10px 0;
+}
+
+.form-input input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.details-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.details-row input {
+  width: 30%;
+}
+
+.add-detail-btn, .submit-btn {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.add-detail-btn {
+  background-color: #008CBA;
+}
+
+.submit-btn:hover, .add-detail-btn:hover {
+  background-color: #45a049;
+}
+
+/* Invoice List Styles */
+.invoice-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.invoice-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.invoice-item button {
+  padding: 5px 10px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.invoice-item button:hover {
+  background-color: #d32f2f;
+}
